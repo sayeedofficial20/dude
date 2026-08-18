@@ -1,0 +1,10 @@
+#virtual envs
+venv/
+.env
+
+Ignored Folders
+test_dict/
+
+#file Extension to ingore
+*.pdf
+*.csv
