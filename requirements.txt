@@ -10,3 +10,6 @@ pdfplumber
 beautifulsoup4
 langchain-text-splitters
 dotenv
+chromadb
+langchain_chroma
+wikipedia

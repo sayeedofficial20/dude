@@ -4,6 +4,7 @@ venv/
 
 Ignored Folders
 test_dict/
+db/
 
 #file Extension to ingore
 *.pdf
