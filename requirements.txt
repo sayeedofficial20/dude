@@ -13,3 +13,5 @@ dotenv
 chromadb
 langchain_chroma
 wikipedia
+faiss-cpu
+langchain-classic
