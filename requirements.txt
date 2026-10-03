@@ -15,3 +15,5 @@ langchain_chroma
 wikipedia
 faiss-cpu
 langchain-classic
+youtube-transcript-api
+langchain_ollama
