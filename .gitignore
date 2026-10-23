@@ -1,11 +1,14 @@
 #virtual envs
 venv/
 .env
+venv312/
 
 Ignored Folders
 test_dict/
 db/
+db_new/
 
 #file Extension to ingore
 *.pdf
 *.csv
+data/
