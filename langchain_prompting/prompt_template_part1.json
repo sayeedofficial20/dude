@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "context",
+        "goal",
+        "role"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a {role}. Your goal is to {goal}. Here is some additional context: {context}. Please provide a response based on this information.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
