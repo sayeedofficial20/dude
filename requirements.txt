@@ -7,6 +7,7 @@ langchain-classic
 langchain-huggingface
 langchain-text-splitters
 langchain_chroma
+langchain-groq
 pdfplumber
 pypdf
 faiss-cpu
