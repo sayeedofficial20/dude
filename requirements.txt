@@ -22,3 +22,5 @@ wikipedia
 youtube-transcript-api
 streamlit
 google-genai
+fastapi
+langserve
