@@ -1,0 +1,6 @@
+langchain
+langchain-community
+ddgs
+langchain-experimental
+langchain-openai
+langchain-groq
