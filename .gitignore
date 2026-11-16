@@ -8,6 +8,8 @@ Ignored Folders
 test_dict/
 db/
 db_new/
+projects/chromadb/
+AI Agents/venv3.10
 
 #file Extension to ingore
 *.pdf

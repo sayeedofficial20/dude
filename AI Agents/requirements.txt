@@ -4,3 +4,4 @@ ddgs
 langchain-experimental
 langchain-openai
 langchain-groq
+langchain-tavily

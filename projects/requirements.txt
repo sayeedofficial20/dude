@@ -6,8 +6,9 @@ langchain-core
 langchain-classic
 langchain-community
 langchain-chroma
+langchain_google_genai
 python-dotenv
 streamlit
 faiss-cpu
 pypdf
-
+beautifulsoup4

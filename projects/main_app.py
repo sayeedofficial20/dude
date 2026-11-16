@@ -37,8 +37,16 @@ if api_key:
         documents=PyPDFLoader(temp_pdf).load()
         splitter=RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=150)
         chunks=splitter.split_documents(documents)
-        vector_store=Chroma.from_documents(chunks,embedding=OpenAIEmbeddings(),persist_directory='./chromadb')
-        retriever=vector_store.as_retriever()
+        vector_store=Chroma.from_documents(chunks,embedding=OpenAIEmbeddings(),persist_directory='./chromadb_new')
+        # retriever=vector_store.as_retriever()
+        retriever=vector_store.as_retriever(
+            search_type="mmr",
+            search_kwargs={
+                            "k": 4,
+                            "fetch_k": 20,
+                            "lambda_mult": 0.5
+                          }
+        )
 
         contxt_sys_prompt='''Given a chat history and lastest user question,
         rephrase the question to make is standalone,Do not answer,only rephrase.'''
