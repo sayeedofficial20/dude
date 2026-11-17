@@ -3,3 +3,7 @@ langchain
 langgraph
 langchain-core
 langchain-community
+langchain_groq
+arxiv
+wikipedia
+langchain-tavily
